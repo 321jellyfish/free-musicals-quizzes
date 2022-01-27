@@ -9,27 +9,16 @@ body {
 h1 {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
-    font-size: xx-large;
-    margin-bottom: 5%;
 }
 
 ul {
-    list-style: none;
     text-align: left;
-    padding-inline-start: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    margin-left: 15%;
-    list-style:square;
-    
+    list-style:square; 
 }
 
 li {
-    margin: 16px;
-}
-
-details {
-    text-align: center;
+    margin: 16px 16px 16px 15%;
+    
 }
 
 h2 {
@@ -43,75 +32,49 @@ h2 {
     text-align: center;
 }
 
+summary {
+    list-style: none;
+}
+
+a:link,
+a:visited {
+    color: black;
+    text-decoration: none;   
+}
+
+/* || QUIZ PAGE STYLES */
+
+.questions-and-answers {
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
 .button {
     background-color: lightgreen;
     border: 4px solid slategray;
     padding: 2%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-}
-summary {
-    list-style: none;
-}
-
-details summary { 
-    cursor: pointer;
-  }
-
-a:link {
-    color: black;
-    text-decoration: none;
-    
-}
-a:visited {
-    color: black;
-    text-decoration: none;
-  }
-
-
-/* || QUIZ PAGE STYLES */
-
-.answers-summary {
-    height: 0px;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.questions-and-answers {
-    text-align: left;
-    padding-top: 2%;
-    min-width: auto;
-    margin: auto;
-    border-radius: 5px;
-    position: relative;
-    margin-bottom: 5%;
-    margin-left: 0%;
-    margin-right: 0%;
-    opacity: 0.8;
-    font-family: 'Courier New', Courier, monospace;
-    padding-left: 5%;
+    text-align: center;
 }
 
 /* || QUIZ PAGE NAVIGATION */
 
 nav {
     display: flex;
-    align-items: center;
     justify-content: space-around;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-article {
-    display: flex;
-    flex-flow: column;
-}
 
-
+/*
 @media (max-width: 400px) {
     body {
         background-color: white; 
     }
 }
+*/
 
 @media (min-width: 401px) {
     body {
